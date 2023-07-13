@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #fadein {
+        width: 400px;
+        height: 400px;
+        background-color: gray;
+        color: aliceblue;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        transition: opacity 0.5s ease;
+      }
+
+      h1 {
+        font-size: 100px;
+      }
+
+      #fadein:hover {
+        opacity: 0.5;
+      }
+      .box {
+        padding: 20px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+      }
+      form {
+        width: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <form id="fadein">
+        <h1>Fade in</h1>
+      </form>
+    </div>
+  </body>
+</html>
